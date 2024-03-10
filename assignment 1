@@ -1,4 +1,5 @@
 1. Note on distributed hash tables
+
 A distributed hash table (DHT) is a type of distributed system that provides a lookup service similar to a hash table. In a hash table, data is stored and retrieved using keys, and the keys are used to determine the location of the data in the table. A distributed hash table is similar, but the data is distributed across multiple nodes in a network rather than being stored in a single table.
 Each node in a DHT is in charge of maintaining and storing a certain amount of data. A client sends a request to the network in order to retrieve or store data. Based on the key of the requested data, the request is then sent to the relevant node. After that, the node reacts to the request by storing or retrieving the data.
 Distributed file systems, distributed databases, and peer-to-peer (P2P) networks are just a few of the many applications that use DHTs. They offer a scalable and effective means of storing and retrieving data, which makes them very helpful for large-scale distributed systems.
